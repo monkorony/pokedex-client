@@ -28,6 +28,9 @@ li {
   color: #fff;
   padding: 0 5px;
 }
+img {
+  max-width: 100%;
+}
 .new {
   list-style: unset;
   padding-left: 40px;
@@ -38,4 +41,18 @@ li {
 }
 .cardType .card-body .row {
   margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .fl-1 {
+    float: right;
+  }
+}
+
+@media (max-width: 767px) {
+  .prof-stats .row .row .col-md-6 {
+    float: left;
+    width: 50%;
+    margin-bottom: 15px;
+  }
 }

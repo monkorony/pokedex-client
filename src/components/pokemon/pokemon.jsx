@@ -193,7 +193,7 @@ export default class Pokemon extends Component {
                       <h3>{pokeIndex}</h3>
                     </div>
                     <div className="col-7">
-                      <div className="float-right">
+                      <div className="fl-1">
                         {types.map(type => (
                           <span
                             key={type}
@@ -323,13 +323,13 @@ export default class Pokemon extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="card-body">
+                <div className="card-body prof-stats">
                   <h5 className="card-title text-center">Profile</h5>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">Height:</div>
+                          <div className="fl-1">Height:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="float-left">{height} ft</div>
@@ -337,7 +337,7 @@ export default class Pokemon extends Component {
                       </div>
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">Weight:</div>
+                          <div className="fl-1">Weight:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="float-left">{weight} lbs</div>
@@ -345,7 +345,7 @@ export default class Pokemon extends Component {
                       </div>
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">Catch Rate:</div>
+                          <div className="fl-1">Catch Rate:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="float-left">{catchRate}%</div>
@@ -353,7 +353,7 @@ export default class Pokemon extends Component {
                       </div>
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">Gender Ratio:</div>
+                          <div className="fl-1">Gender Ratio:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="progress">
@@ -390,7 +390,7 @@ export default class Pokemon extends Component {
                     <div className="col-md-6">
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">Egg groups:</div>
+                          <div className="fl-1">Egg groups:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="float-left">{eggGroups}</div>
@@ -398,7 +398,7 @@ export default class Pokemon extends Component {
                       </div>
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">Hatch Steps:</div>
+                          <div className="fl-1">Hatch Steps:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="float-left">{hatchSteps}</div>
@@ -406,7 +406,7 @@ export default class Pokemon extends Component {
                       </div>
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">Abilities:</div>
+                          <div className="fl-1">Abilities:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="float-left">{abilities}</div>
@@ -414,7 +414,7 @@ export default class Pokemon extends Component {
                       </div>
                       <div className="row">
                         <div className="col-md-6">
-                          <div className="float-right">EVs:</div>
+                          <div className="fl-1">EVs:</div>
                         </div>
                         <div className="col-md-6">
                           <div className="float-left">{evs}</div>
